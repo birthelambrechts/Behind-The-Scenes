@@ -1,16 +1,16 @@
 # Behind-The-Scenes
 
 Rolverdeling: <br>
-  Danny: Search
-  Mago: Downloads 
-  Thomas: Add document
-  Birthe: Admin panel
+  Danny: Search <br>
+  Mago: Downloads <br>
+  Thomas: Add document <br>
+  Birthe: Admin panel <br>
   
-Let op;
-  Enkel engels
-  unieke divs, Geen gebruik van enkel body, a, p,... 
-  1 div toe te passen op geheel
-  Breedte in percentage, hoogte scrollbaar
+Let op; <br>
+  Enkel engels <br>
+  unieke divs, Geen gebruik van enkel body, a, p,...  <br>
+  1 div toe te passen op geheel <br>
+  Breedte in percentage, hoogte scrollbaar <br>
 
-sources:
-  https://codepen.io/taniarascia/pen/yYrXRG/
+sources: <br>
+  https://codepen.io/taniarascia/pen/yYrXRG/ <br>
