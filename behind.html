@@ -1,26 +1,128 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel='stylesheet' href='style.css'/>
-    <title>Behind The Scenes</title>
+        <title>Bootstrap Tutorial Sample Page</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+        <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-    
+    <div class="BTS">
+
+        <div class="container">
+            <h2>Behind The Scenes</h2>
+
+            <ul class="nav nav-tabs">
+                <li class="active"><a data-toggle="tab" href="#search">Search</a></li>
+                <li><a data-toggle="tab" href="#downloads">Download</a></li>
+                <li><a data-toggle="tab" href="#add">Add documents</a></li>
+                <li><a data-toggle="tab" href="#admin-panel">Admin</a></li>
+            </ul>
+
+<div class="tab-content"></div>
+<!--search-->
+                <div id="search" class="tab-pane fade in active">
+                        <div class="">
+                                <div class="navbar sticky-top  navbar-dark bg-dark d-flex justify-content-center ">
+                                  <a class="navbar-brand" href="#!">
+                          
+                                   <form class="form-inline">
+                                    <input class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search">
+                                    <button class="btn btn-outline-secondary m-5 p-3" type="submit"><a class="text-light" href="#" data-toggle="popover" title="Popover Search" data-content="Cannot currently find your input"><h3>SEARCH</h3></a></button>
+                                   </form>
+                                  </a>
+                                    <script>
+                                        $(document).ready(function(){
+                                          $('[data-toggle="popover"]').popover();
+                                        });
+                                    </script>
+                               </div>
+                              </div>
+                          
+                </div>
+
+<!--downloads-->
+                <div id="downloads" class="tab-pane fade">
+                </div>
+<!--add-->
+                <div id="add" class="tab-pane fade">
+                </div>
+
+<!--admin-->
+                <div id="admin-panel" class="tab-pane fade">
+
+                    <!-- Button trigger modal -->
+                    <button type="button" class="btn wh70 col-3 m-2 rounded" data-toggle="modal"
+                        data-target="#exampleModal">
+                        <img src="images/random-logo.png" class="logo-img-fluid mt-1"><br>button 1
+                    </button>
+                    <button type="button" class="btn wh70 col-3 m-2 rounded" data-toggle="modal"
+                        data-target="#exampleModal">
+                        <img src="images/random-logo.png" class="logo-img-fluid mt-3"><br>button 2
+                    </button>
+                    <button type="button" class="btn wh70 col-3 m-2 rounded" data-toggle="modal"
+                        data-target="#exampleModal">
+                        <img src="images/random-logo.png" class="logo-img-fluid mt-3"><br>button 3
+                    </button>
+                    <button type="button" class="btn wh70 col-3 m-2 rounded" data-toggle="modal"
+                        data-target="#exampleModal">
+                        <img src="images/random-logo.png" class="logo-img-fluid mt-3"><br>button 4
+                    </button>
+                    <button type="button" class="btn wh70 col-3 m-2 rounded" data-toggle="modal"
+                        data-target="#exampleModal">
+                        <img src="images/random-logo.png" class="logo-img-fluid mt-3"><br>button 5
+                    </button>
+                    <button type="button" class="btn wh70 col-3 m-2 rounded" data-toggle="modal"
+                        data-target="#exampleModal">
+                        <img src="images/random-logo.png" class="logo-img-fluid mt-3"><br>button 6
+                    </button>
+                    <button type="button" class="btn wh70 col-3 m-2 rounded" data-toggle="modal"
+                        data-target="#exampleModal">
+                        <img src="images/random-logo.png" class="logo-img-fluid mt-3"><br>button 7
+                    </button>
+                    <button type="button" class="btn wh70 col-3 m-2 rounded" data-toggle="modal"
+                        data-target="#exampleModal">
+                        <img src="images/random-logo.png" class="logo-img-fluid mt-3"><br>button 8
+                    </button>
+                    <button type="button" class="btn wh70 col-3 m-2 rounded" data-toggle="modal"
+                        data-target="#exampleModal">
+                        <img src="images/random-logo.png" class="logo-img-fluid mt-3"><br>button 9
+                    </button>
+
+
+                    <!-- Modal -->
+                    <div class="modal" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+                        aria-hidden="true">
+                        <div class="modal-dialog" role="document">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title" id="exampleModalLabel">More info</h5>
+                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                        <span aria-hidden="true">×</span>
+                                    </button>
+                                </div>
+                                <div class="modal-body-bl">
+                                    ...
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button wh50" class="btn wh40 btn-secondary"
+                                        data-dismiss="modal">Back</button>
+                                    <button type="button wh50" class="btn wh40 btn-primary">Save changes</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"crossorigin="anonymous">
+</script>
 </body>
+
 </html>
-<ul class="nav nav-tabs">
-    <li class="nav-item">
-        <a href="#" class="nav-link active">Search</a>
-    </li>
-    <li class="nav-item">
-        <a href="#" class="nav-link">New Document</a>
-    </li>
-    <li class="nav-item">
-        <a href="#" class="nav-link">Downloads</a>
-    </li>
-    <li class="nav-item">
-            <a href="#" class="nav-link">Admin</a>
-        </li>
-</ul>

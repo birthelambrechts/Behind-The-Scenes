@@ -1,0 +1,33 @@
+.BTS{
+    font-family: "Nunito", sans-serif, monospace;
+    background-color: #f7f3f3
+}
+
+.logo-img-fluid{
+    width: 50px;
+    height: 50px;
+}
+
+.admin{
+    font-size: 18px;
+}
+
+.wh40{
+height: 40px;
+}
+
+.wh70{
+    font-size: 20px;
+    height: 110px;  
+}
+.wh70:hover{
+    background-color: #b8b4b4
+}
+
+.modal-body-bl{
+    height: 100px;
+}
+
+.admin-panel{
+margin:-20 0 0 0;
+}
