@@ -2,254 +2,431 @@
 <html lang="en">
 
 <head>
-        <title>Bootstrap Tutorial Sample Page</title>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
-        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
-        <link rel="stylesheet" href="style.css">
+  <title>Bootstrap Tutorial Sample Page</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+  <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-    <div class="BTS">
+  <div class="BTS">
 
-        <div class="container">
-            <h2>Behind The Scenes</h2>
+    <div class="container">
+      <h2>Behind The Scenes</h2>
 
-            <ul class="nav nav-tabs">
-                <li class="active"><a data-toggle="tab" href="#search">Search</a></li>
-                <li><a data-toggle="tab" href="#downloads">Download</a></li>
-                <li><a data-toggle="tab" href="#add">Add documents</a></li>
-                <li><a data-toggle="tab" href="#admin-panel">Admin</a></li>
-            </ul>
+      <ul class="nav nav-tabs">
+        <li class="active"><a data-toggle="tab" href="#search">Search</a></li>
+        <li><a data-toggle="tab" href="#downloads">Download</a></li>
+        <li><a data-toggle="tab" href="#add">Add documents</a></li>
+        <li><a data-toggle="tab" href="#admin-panel">Admin</a></li>
+      </ul>
 
-<div class="tab-content"></div>
-<!--search-->
-                <div id="search" class="tab-pane fade in active">
-                        <div class="">
-                                <div class="navbar sticky-top  navbar-dark bg-dark d-flex justify-content-center ">
-                                  <a class="navbar-brand" href="#!">
-                          
-                                   <form class="form-inline">
-                                    <input class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search">
-                                    <button class="btn btn-outline-secondary m-5 p-3" type="submit"><a class="text-light" href="#" data-toggle="popover" title="Popover Search" data-content="Cannot currently find your input"><h3>SEARCH</h3></a></button>
-                                   </form>
-                                  </a>
-                                    <script>
-                                        $(document).ready(function(){
-                                          $('[data-toggle="popover"]').popover();
-                                        });
-                                    </script>
-                               </div>
-                              </div>
-                          
-                </div>
+      <div class="tab-content"></div>
+      <!--search-->
+      <div id="search" class="tab-pane fade in active">
+        <div class="">
+          <div class="navbar sticky-top  navbar-dark bg-dark d-flex justify-content-center ">
+            <a class="navbar-brand" href="#!">
 
-<!--downloads-->
-                <div id="downloads" class="tab-pane fade">
-                  <div class="downloadssss">
-                  <div align="center">      
-                  <div class="table-size">
-                  <table class="table table-hover table-dark">
+              <form class="form-inline">
+                <input class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-secondary m-5 p-3" type="submit"><a class="text-light" href="#"
+                    data-toggle="popover" title="Popover Search" data-content="Cannot currently find your input">
+                    <h3>SEARCH</h3>
+                  </a></button>
+              </form>
+            </a>
+            <script>
+              $(document).ready(function () {
+                $('[data-toggle="popover"]').popover();
+              });
+            </script>
+          </div>
+        </div>
+
+      </div>
+
+      <!--downloads-->
+      <div id="downloads" class="tab-pane fade">
+        <div class="downloadssss">
+          <div align="center">
+            <div class="table-size">
+              <table class="table table-hover table-dark">
 
 
-                    <thead>
-                      <tr>
-                        <th scope="col"></th>
-                        <th scope="col">First</th>
-                        <th scope="col">Last</th>
-                        <th scope="col">Age</th>
-                        <th scope="col">Location</th>
-                        <th scope="col">Position</th>
-                        
-                      </tr>
-                    </thead>
-                    <tbody>
-                      <tr>
-                        <th scope="row"> <div class="form-check form-check-inline">
-                    <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1">
-                    <label class="form-check-label" for="inlineCheckbox1"></label>
-                  </div></th>
-                        
-                        <td>Angel</td>
-                        <td>Ambix</td>
-                        <td>23</td>
-                        <td>Genk</td>
-                        <td>Software application developer</td>
-                      </tr>
-                      <tr>
-                        <th scope="row"><div class="form-check form-check-inline">
-                    <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1">
-                    <label class="form-check-label" for="inlineCheckbox2"></th>
-                        
-                        <td>Ben</td>
-                        <td>Benderson</td>
-                        <td>45</td>
-                        <td>Luik</td>
-                        <td>Web developer</td>
-                      </tr>
-                      <tr>
-                        <th scope="row"><div class="form-check form-check-inline">
-                    <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1">
-                    <label class="form-check-label" for="inlineCheckbox3"></th>
-                        
-                        <td>Cedric</td>
-                        <td>Alpha</td>
-                        <td>31</td>
-                        <td>Genk</td>
-                        <td>Computer systems engineer</td>
-                      </tr>
-                      <tr>
-                        <th scope="row"><div class="form-check form-check-inline">
-                    <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1">
-                    <label class="form-check-label" for="inlineCheckbox4"></th>
-                        
-                        <td>Cedric</td>
-                        <td>Beta</td>
-                        <td>20</td>
-                        <td>Hasselt</td>
-                        <td>Business intelligence analyst</td>
-                      </tr>
-                      <th scope="row"><div class="form-check form-check-inline">
-                  <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1">
-                  <label class="form-check-label" for="inlineCheckbox5"></th>
-                      
-                      <td>Danny</td>
-                      <td>Maesen</td>
-                      <td>29</td>
-                      <td>Zonhoven</td>
-                      <td>Computer programmer</td>
-                    </tr>
-                    <th scope="row"><div class="form-check form-check-inline">
-                  <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1">
-                  <label class="form-check-label" for="inlineCheckbox6"></th>
-                      
-                      <td>Eric</td>
-                      <td>Papillon</td>
-                      <td>59</td>
-                      <td>Lummen</td>
-                      <td>Database administrator</td>
-                    </tr>
-                    <th scope="row"><div class="form-check form-check-inline">
-                  <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1">
-                  <label class="form-check-label" for="inlineCheckbox7"></th>
-                      
-                      <td>Frederique</td>
-                      <td>Dupont</td>
-                      <td>35</td>
-                      <td>Waremme</td>
-                      <td>Web developer</td>
-                    </tr>
-                    <th scope="row"><div class="form-check form-check-inline">
-                  <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1">
-                  <label class="form-check-label" for="inlineCheckbox8"></th>
-                      
-                      <td>Gert</td>
-                      <td>Maesen</td>
-                      <td>32</td>
-                      <td>Zonhoven</td>
-                      <td>Computer programmer</td>
-                    </tr>
-                    </tbody>
-                  </table>                              <!-- END TABLE -->
-                                                        
-                                                        
-                                                        <!-- Download Button -->
-                  <div class="row">
-                    <div class="col-12">
-                      <div class="button-downloads">
-                        <button class="btn1" style="width:50%"><i class="fa fa-download"></i> Download</button>
+                <thead>
+                  <tr>
+                    <th scope="col"></th>
+                    <th scope="col">First</th>
+                    <th scope="col">Last</th>
+                    <th scope="col">Age</th>
+                    <th scope="col">Location</th>
+                    <th scope="col">Position</th>
+
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <th scope="row">
+                      <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1">
+                        <label class="form-check-label" for="inlineCheckbox1"></label>
                       </div>
-                    </div>
-                  </div>
+                    </th>
 
-                                                      <!-- Copyright -->
+                    <td>Angel</td>
+                    <td>Ambix</td>
+                    <td>23</td>
+                    <td>Genk</td>
+                    <td>Software application developer</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">
+                      <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1">
+                        <label class="form-check-label" for="inlineCheckbox2">
+                    </th>
 
-                  <div class="row">
-                    <div class="col-12 justifiy-content-center ">
-                      <p> Ⓒ 2019 Behind The Scenes. All rights reserved. </p>
+                    <td>Ben</td>
+                    <td>Benderson</td>
+                    <td>45</td>
+                    <td>Luik</td>
+                    <td>Web developer</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">
+                      <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1">
+                        <label class="form-check-label" for="inlineCheckbox3">
+                    </th>
+
+                    <td>Cedric</td>
+                    <td>Alpha</td>
+                    <td>31</td>
+                    <td>Genk</td>
+                    <td>Computer systems engineer</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">
+                      <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1">
+                        <label class="form-check-label" for="inlineCheckbox4">
+                    </th>
+
+                    <td>Cedric</td>
+                    <td>Beta</td>
+                    <td>20</td>
+                    <td>Hasselt</td>
+                    <td>Business intelligence analyst</td>
+                  </tr>
+                  <th scope="row">
+                    <div class="form-check form-check-inline">
+                      <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1">
+                      <label class="form-check-label" for="inlineCheckbox5">
+                  </th>
+
+                  <td>Danny</td>
+                  <td>Maesen</td>
+                  <td>29</td>
+                  <td>Zonhoven</td>
+                  <td>Computer programmer</td>
+                  </tr>
+                  <th scope="row">
+                    <div class="form-check form-check-inline">
+                      <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1">
+                      <label class="form-check-label" for="inlineCheckbox6">
+                  </th>
+
+                  <td>Eric</td>
+                  <td>Papillon</td>
+                  <td>59</td>
+                  <td>Lummen</td>
+                  <td>Database administrator</td>
+                  </tr>
+                  <th scope="row">
+                    <div class="form-check form-check-inline">
+                      <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1">
+                      <label class="form-check-label" for="inlineCheckbox7">
+                  </th>
+
+                  <td>Frederique</td>
+                  <td>Dupont</td>
+                  <td>35</td>
+                  <td>Waremme</td>
+                  <td>Web developer</td>
+                  </tr>
+                  <th scope="row">
+                    <div class="form-check form-check-inline">
+                      <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1">
+                      <label class="form-check-label" for="inlineCheckbox8">
+                  </th>
+
+                  <td>Gert</td>
+                  <td>Maesen</td>
+                  <td>32</td>
+                  <td>Zonhoven</td>
+                  <td>Computer programmer</td>
+                  </tr>
+                </tbody>
+              </table> <!-- END TABLE -->
+
+
+              <!-- Download Button -->
+              <div class="row">
+                <div class="col-12">
+                  <div class="button-downloads">
+                    <button class="btn1" style="width:50%"><i class="fa fa-download"></i> Download</button>
                   </div>
-                  </div>
-                </div> <!-- table-size -->    
-                </div> <!-- align center -->
-                </div> <!-- downloadssss -->
-              </div> <!-- id -->
-<!--add-->
-                <div id="add" class="tab-pane fade">
                 </div>
+              </div>
 
-<!--admin-->
-                <div id="admin-panel" class="tab-pane fade">
+              <!-- Copyright -->
 
-                    <!-- Button trigger modal -->
-                    <button type="button" class="btn wh70 col-3 m-2 rounded" data-toggle="modal"
-                        data-target="#exampleModal">
-                        <img src="images/random-logo.png" class="logo-img-fluid mt-1"><br>button 1
-                    </button>
-                    <button type="button" class="btn wh70 col-3 m-2 rounded" data-toggle="modal"
-                        data-target="#exampleModal">
-                        <img src="images/random-logo.png" class="logo-img-fluid mt-3"><br>button 2
-                    </button>
-                    <button type="button" class="btn wh70 col-3 m-2 rounded" data-toggle="modal"
-                        data-target="#exampleModal">
-                        <img src="images/random-logo.png" class="logo-img-fluid mt-3"><br>button 3
-                    </button>
-                    <button type="button" class="btn wh70 col-3 m-2 rounded" data-toggle="modal"
-                        data-target="#exampleModal">
-                        <img src="images/random-logo.png" class="logo-img-fluid mt-3"><br>button 4
-                    </button>
-                    <button type="button" class="btn wh70 col-3 m-2 rounded" data-toggle="modal"
-                        data-target="#exampleModal">
-                        <img src="images/random-logo.png" class="logo-img-fluid mt-3"><br>button 5
-                    </button>
-                    <button type="button" class="btn wh70 col-3 m-2 rounded" data-toggle="modal"
-                        data-target="#exampleModal">
-                        <img src="images/random-logo.png" class="logo-img-fluid mt-3"><br>button 6
-                    </button>
-                    <button type="button" class="btn wh70 col-3 m-2 rounded" data-toggle="modal"
-                        data-target="#exampleModal">
-                        <img src="images/random-logo.png" class="logo-img-fluid mt-3"><br>button 7
-                    </button>
-                    <button type="button" class="btn wh70 col-3 m-2 rounded" data-toggle="modal"
-                        data-target="#exampleModal">
-                        <img src="images/random-logo.png" class="logo-img-fluid mt-3"><br>button 8
-                    </button>
-                    <button type="button" class="btn wh70 col-3 m-2 rounded" data-toggle="modal"
-                        data-target="#exampleModal">
-                        <img src="images/random-logo.png" class="logo-img-fluid mt-3"><br>button 9
-                    </button>
+              <div class="row">
+                <div class="col-12 justifiy-content-center ">
+                  <p> Ⓒ 2019 Behind The Scenes. All rights reserved. </p>
+                </div>
+              </div>
+            </div> <!-- table-size -->
+          </div> <!-- align center -->
+        </div> <!-- downloadssss -->
+      </div> <!-- id -->
+      <!--add-->
+      <div id="add" class="tab-pane fade">
+        <diV class="container">
+          <div class="col-12">
+              <div class="col">
+              </div>
+          </div>
+          <table class="table table-borderless">
+              <thead>
+                  <tr>
+                      <th></th>
+                      <th></th>
+                      <th></th>
+                  </tr>
+              </thead>
+              <tbody>
+                  <tr>
+                      <th scope="row"></th>
+                      <td></td>
+                      <td></td>
+                  </tr>
+                  <tr>
+                      <th scope="row"></th>
+                      <td></td>
+                      <td></td>
+                  </tr>
+              </tbody>
+          </table>
+      <div class="col">
+          <table class="table table-borderless">
+              <thead>
+                  <tr>
+                      <th></th>
+                      <th></th>
+                      <th></th>
+                  </tr>
+              </thead>
+              <tbody>
+                  <tr>
+                      <th scope="row"></th>
+                      <td></td>
+                      <td></td>
+                  </tr>
+                  <tr>
+                      <th scope="row"></th>
+                      <td></td>
+                      <td></td>
+                  </tr>
+              </tbody>
+          </table>
+      </div>
+      <div class="col">
+          <table class="table table-borderless">
+              <thead>
+                  <tr>
+                      <th></th>
+                      <th></th>
+                      <th></th>
+                  </tr>
+              </thead>
+              <tbody>
+                  <tr>
+                      <th scope="row"></th>
+                      <td></td>
+                      <td></td>
+                  </tr>
+                  <tr>
+                      <th scope="row"></th>
+                      <td></td>
+                      <td></td>
+                  </tr>
+              </tbody>
+          </table>
+      </div>
+      <div class="col">
+      </div>
+      
+      <div class="col">
+          <table class="table table-borderless">
+              <thead>
+                  <tr>
+                      <th></th>
+                      <th></th>
+                      <th></th>
+                  </tr>
+              </thead>
+              <tbody>
+                  <tr>
+                      <th scope="row"></th>
+                      <td></td>
+                      <td></td>
+                  </tr>
+                  <tr>
+                      <th scope="row"></th>
+                      <td>
+                          <div class="input-group">
+                              <input type="text" class="form-control" placeholder="search" aria-label=""
+                                  aria-describedby="basic-addon1">
+                              <div class="input-group-append">
+  <!-- Large modal -->
+  <button class="btn btn-primary rounded" data-toggle="modal" data-target=".bd-example-modal-lg">
+      search  <i class="fas fa-search"></i>
+        </button>
+        
+        <div class="modal fade bd-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+          <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+              <table class="table table-hover">
+                  <thead>
+                    <tr>
+                      <th>#</th><!--buttons don't work yet reason: knolage inadequate plus general lazyness #i'maprogrammer-->
+                      <th><button type="button" class="btn btn-primary">Last Name <i class="fas fa-angle-up"></i></button></th>
+                      <th><button type="button" class="btn btn-primary">Name<i class="fas fa-angle-up"></i></button></th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <th scope="row">1</th>
+                      <td>Mark</td>
+                      <td>Otto</td>
+                      <td><button type="button" class="btn btn-primary">upload        <i class="fas fa-upload"></i></button></td>
+                    </tr>
+                    <tr>
+                      <th scope="row">2</th>
+                      <td>Jacob</td>
+                      <td>Thornton</td>
+                      <td><button type="button" class="btn btn-primary">upload        <i class="fas fa-upload"></i></button></td>
+                      
+                    </tr>
+                  </tbody>
+                </table>
+                
+            </div>
+          </div>
+        </div>
+        
+                              </div>
+                          </div>
+                      </td>
+                      <td></td>
+                  </tr>
+              </tbody>
+          </table>
+      </div>
+      <div class="col">
+          <table class="table table-borderless">
+              <thead>
+                  <tr>
+                      <th></th>
+                      <th></th>
+                      <th></th>
+                  </tr>
+              </thead>
+              <tbody>
+                  <tr>
+                      <th scope="row"></th>
+                      <td></td>
+                      <td></td>
+                  </tr>
+                  <tr>
+                      <th scope="row"></th>
+                      <td></td>
+                      <td></td>
+                  </tr>
+              </tbody>
+          </table>
+      </div>
+      <div class="col"></div>
+      </div>
+  </div>
+
+  <!--admin-->
+  <div id="admin-panel" class="tab-pane fade">
+
+    <!-- Button trigger modal -->
+    <button type="button" class="btn wh70 col-3 m-2 rounded" data-toggle="modal" data-target="#exampleModal">
+      <img src="images/random-logo.png" class="logo-img-fluid mt-1"><br>button 1
+    </button>
+    <button type="button" class="btn wh70 col-3 m-2 rounded" data-toggle="modal" data-target="#exampleModal">
+      <img src="images/random-logo.png" class="logo-img-fluid mt-3"><br>button 2
+    </button>
+    <button type="button" class="btn wh70 col-3 m-2 rounded" data-toggle="modal" data-target="#exampleModal">
+      <img src="images/random-logo.png" class="logo-img-fluid mt-3"><br>button 3
+    </button>
+    <button type="button" class="btn wh70 col-3 m-2 rounded" data-toggle="modal" data-target="#exampleModal">
+      <img src="images/random-logo.png" class="logo-img-fluid mt-3"><br>button 4
+    </button>
+    <button type="button" class="btn wh70 col-3 m-2 rounded" data-toggle="modal" data-target="#exampleModal">
+      <img src="images/random-logo.png" class="logo-img-fluid mt-3"><br>button 5
+    </button>
+    <button type="button" class="btn wh70 col-3 m-2 rounded" data-toggle="modal" data-target="#exampleModal">
+      <img src="images/random-logo.png" class="logo-img-fluid mt-3"><br>button 6
+    </button>
+    <button type="button" class="btn wh70 col-3 m-2 rounded" data-toggle="modal" data-target="#exampleModal">
+      <img src="images/random-logo.png" class="logo-img-fluid mt-3"><br>button 7
+    </button>
+    <button type="button" class="btn wh70 col-3 m-2 rounded" data-toggle="modal" data-target="#exampleModal">
+      <img src="images/random-logo.png" class="logo-img-fluid mt-3"><br>button 8
+    </button>
+    <button type="button" class="btn wh70 col-3 m-2 rounded" data-toggle="modal" data-target="#exampleModal">
+      <img src="images/random-logo.png" class="logo-img-fluid mt-3"><br>button 9
+    </button>
 
 
-                    <!-- Modal -->
-                    <div class="modal" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
-                        aria-hidden="true">
-                        <div class="modal-dialog" role="document">
-                            <div class="modal-content">
-                                <div class="modal-header">
-                                    <h5 class="modal-title" id="exampleModalLabel">More info</h5>
-                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                                        <span aria-hidden="true">×</span>
-                                    </button>
-                                </div>
-                                <div class="modal-body-bl">
-                                    ...
-                                </div>
-                                <div class="modal-footer">
-                                    <button type="button wh50" class="btn wh40 btn-secondary"
-                                        data-dismiss="modal">Back</button>
-                                    <button type="button wh50" class="btn wh40 btn-primary">Save changes</button>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+    <!-- Modal -->
+    <div class="modal" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+      aria-hidden="true">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">More info</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">×</span>
+            </button>
+          </div>
+          <div class="modal-body-bl">
+            ...
+          </div>
+          <div class="modal-footer">
+            <button type="button wh50" class="btn wh40 btn-secondary" data-dismiss="modal">Back</button>
+            <button type="button wh50" class="btn wh40 btn-primary">Save changes</button>
+          </div>
+        </div>
+      </div>
+    </div>
 
 
-<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"crossorigin="anonymous">
-</script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
+    </script>
 </body>
 
 </html>
