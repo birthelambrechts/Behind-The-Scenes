@@ -18,7 +18,7 @@ height: 40px;
 
 .wh70{
     font-size: 20px;
-    height: 110px;  
+    height: 110px;
 }
 .wh70:hover{
     background-color: #b8b4b4
@@ -31,3 +31,40 @@ height: 40px;
 .admin-panel{
 margin:-20 0 0 0;
 }
+
+
+/* Downloads */
+
+
+.btn1 {
+  background-color: DodgerBlue;
+  border: 1px solid black;
+  color: white;
+  padding: 12px 30px;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+/* Darker background on mouse-over */
+.btn1:hover {
+  background-color: RoyalBlue;
+}
+
+.table-size {
+    width: 50%;
+    margin-top: 20px;
+}
+
+#th {
+  height: 50px;
+}
+
+#td {
+  height: 50%;
+}
+
+.button-downloads {
+  padding: 25px;
+}
+
+/* Downloads END */
