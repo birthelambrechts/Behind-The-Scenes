@@ -1,15 +1,21 @@
 .BTS{
-    font-family: "Nunito", sans-serif, monospace;
-    background-color: #f7f3f3
+  font-family: "Nunito", sans-serif, monospace;
+  background-color: #f7f3f3
 }
+
+/**Admin**/
 
 .logo-img-fluid{
-    width: 50px;
-    height: 50px;
+  width: 50px;
+  height: 45px;
 }
 
-.admin{
-    font-size: 18px;
+.tab-pane{
+  font-size: 18px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+
 }
 
 .wh40{
@@ -17,15 +23,13 @@ height: 40px;
 }
 
 .wh70{
-    font-size: 20px;
-    height: 110px;
-}
-.wh70:hover{
-    background-color: #b8b4b4
+  font-size: 20px;
+  height: 160px;
+border-radius: 50%;
 }
 
-.modal-body-bl{
-    height: 100px;
+.wh70:hover{
+  background-color: #b8b4b4
 }
 
 .admin-panel{
@@ -33,38 +37,41 @@ margin:-20 0 0 0;
 }
 
 
+
+
+
 /* Downloads */
 
 
 .btn1 {
-  background-color: DodgerBlue;
-  border: 1px solid black;
-  color: white;
-  padding: 12px 30px;
-  cursor: pointer;
-  font-size: 20px;
+background-color: DodgerBlue;
+border: 1px solid black;
+color: white;
+padding: 12px 30px;
+cursor: pointer;
+font-size: 20px;
 }
 
 /* Darker background on mouse-over */
 .btn1:hover {
-  background-color: RoyalBlue;
+background-color: RoyalBlue;
 }
 
 .table-size {
-    width: 50%;
-    margin-top: 20px;
+  width: 50%;
+  margin-top: 20px;
 }
 
 #th {
-  height: 50px;
+height: 50px;
 }
 
 #td {
-  height: 50%;
+height: 50%;
 }
 
 .button-downloads {
-  padding: 25px;
+padding: 25px;
 }
 
 /* Downloads END */
