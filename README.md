@@ -6,6 +6,11 @@ Rolverdeling: <br>
   Thomas: Add document <br>
   Birthe: Admin panel <br>
   
+  Kleuren van BTS-template<br>
+  Fancy appelblauw-zeegroen : #00d6c5<br>
+  Donker blauw: #273646<br>
+  Donkerste blauw: #1c2631<br>
+  
 Let op; <br>
   Enkel engels <br>
   unieke divs, Geen gebruik van enkel body, a, p,...  <br>
