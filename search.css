@@ -1,0 +1,74 @@
+
+
+.search-engine{
+  height: 100vh;
+  background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(image.);  /* achtergrond nog zoeken*/
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items:flex-start;
+  font-family: sans-serif;
+}
+
+.h1-search{
+  color: #636b6f;
+  margin-bottom: 70px;
+  font-size: 45px;
+  letter-spacing: 2px;
+  text-align: center;
+  border-bottom: 1px solid#00d6c5;
+}
+
+.search-field{
+  height: 50px;
+  padding: 10px;
+  border: none;
+  font-size: 25px;
+  border-radius: 25px;
+  outline: none;
+}
+
+.search-name{
+  width: 250px;
+}
+
+.search-location{
+  width: 200px;
+}
+
+.search-date-of-birth{
+  width: 150px
+}
+
+.search-btn{
+  height: 50px;
+  width: 150px;
+  background: #00d6c5;
+  border: none;
+  color: #000 ;
+  border-radius: 25px;
+}
+.search-btn:hover{
+  background: #2b796c;
+  cursor: pointer;
+}
+
+.search-box{
+  background: rgba(0,0,0,0.5);
+  padding: 30px;
+  border-radius:60Px;
+
+}
+
+.table-search{
+  display:flex;
+  justify-content: center;
+  align-items:center;
+}
+
+#hiddenSearch{
+  color: #2b796c;
+  width:50vw;
+
+}
